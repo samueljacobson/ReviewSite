@@ -10,6 +10,7 @@ namespace ReviewSite.Models
     {
         [Key]
         public int CategoryID { get; set; }
+        [Display(Name = "Category")]
         public string CategoryName { get; set; }
 
         public virtual ICollection<Review> Reviews { get; set; }

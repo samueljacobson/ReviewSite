@@ -52,6 +52,7 @@ namespace ReviewSite.Controllers
         {
             if (ModelState.IsValid)
             {
+                review.ReviewDate = DateTime.Now;  //default published date set to current date
                 db.Reviews.Add(review);
                 db.SaveChanges();
                 return RedirectToAction("Index");

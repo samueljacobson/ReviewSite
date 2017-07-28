@@ -7,52 +7,25 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Review</h4>
+    <h3>Review from @Html.DisplayFor(model => model.Category.CategoryName): <i>@Html.DisplayFor(model => model.ReviewTitle)</i></h3>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.CategoryName)
-        </dt>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="thumbnail">
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.CategoryName)
-        </dd>
+                <h4>
+                    @Html.DisplayFor(model => model.ReviewContent)
+                </h4>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewTitle)
-        </dt>
+                <h4>
+                    @Html.DisplayFor(model => model.ReviewerName), @Html.DisplayFor(model => model.ReviewDate)
+                </h4>
 
-        <dd>
-            @Html.DisplayFor(model => model.ReviewTitle)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReviewDate)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewContent)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReviewContent)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.ReviewerName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.ReviewerName)
-        </dd>
-
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+                <p>
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewID }) |
+                    @Html.ActionLink("Back to List", "Index")
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>

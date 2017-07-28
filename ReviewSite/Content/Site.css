@@ -22,3 +22,20 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.btn.btn-primary a {
+    color:white;
+}
+div.details.btn.btn-primary {
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+p.links {
+    text-align:center;
+}
+.thumb-text {
+    text-align:center;
+}
