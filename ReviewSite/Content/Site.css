@@ -1,6 +1,9 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Oxygen', sans-serif;
+    background-image:url(029d8c745405c80513fe5ee92434bc36.jpg);
+    background-size:cover;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -23,19 +26,51 @@ textarea {
     max-width: 280px;
 }
 
+
 .btn.btn-primary a {
     color:white;
 }
-div.details.btn.btn-primary {
-    
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    
+button.btn.btn-primary.btn-sx {
+    margin:0;
 }
 p.links {
     text-align:center;
 }
 .thumb-text {
     text-align:center;
+}
+.row {
+    padding-top:20px;
+}
+ul.nav.navbar-nav a:hover {
+    color:black;
+    background-color:white;
+}
+div.jumbotron {
+    background-image: url(BingWallpaper-2017-07-25.jpg);
+    background-size: cover;
+    color:white;
+}
+h1#jumbotron-heading {
+    font-family: 'Bellefair', serif;
+    text-shadow:2px 2px 4px black;
+}
+div.col-md-4 {
+    
+}
+div.navbar-header {
+    font-family: 'Bellefair', serif;
+}
+h2.page-title {
+    padding-bottom:10px;
+    color:white;
+    text-shadow:2px 2px 4px black;
+}
+.page-title-details {
+    color:white;
+    text-shadow:2px 2px 4px black;
+}
+p#footer-text {
+    color:white;
+    text-shadow:2px 2px 4px black;
 }
