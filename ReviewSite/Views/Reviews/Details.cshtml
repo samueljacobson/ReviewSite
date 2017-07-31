@@ -6,13 +6,13 @@
 
 <h2 class="page-title-details">Details</h2>
 
+<!--Review displayed as a large thumbnail, body viewable only in details page-->
 <div>
     <h3 class="page-title-details">Review from @Html.DisplayFor(model => model.Category.CategoryName): <i>@Html.DisplayFor(model => model.ReviewTitle)</i></h3>
     <hr />
     <div class="row">
         <div class="col-md-12">
             <div class="thumbnail">
-
                 <h4>
                     @Html.DisplayFor(model => model.ReviewContent)
                 </h4>

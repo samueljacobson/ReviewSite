@@ -42,10 +42,13 @@ p.links {
 .row {
     padding-top:20px;
 }
+/*Navbar styling*/
 ul.nav.navbar-nav a:hover {
     color:black;
     background-color:white;
 }
+
+/*Jumbtron styling*/
 div.jumbotron {
     background-image: url(BingWallpaper-2017-07-25.jpg);
     background-size: cover;
@@ -55,9 +58,10 @@ h1#jumbotron-heading {
     font-family: 'Bellefair', serif;
     text-shadow:2px 2px 4px black;
 }
-div.col-md-4 {
+
+/*div.col-md-4 {
     
-}
+}*/
 div.navbar-header {
     font-family: 'Bellefair', serif;
 }
